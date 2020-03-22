@@ -40,15 +40,15 @@ namespace Stack_Parser.Helpers
                             break;
 
                         case '-':
-                            transientnum = num2 - num1;
+                            transientnum = num1 - num2;
                             break;
 
                         case '*':
-                            transientnum = num2 * num1;
+                            transientnum = num1 * num2;
                             break;
 
                         case '/':
-                            transientnum = num2 / num1;
+                            transientnum = num1 / num2;
                             break;
 
                         default:
